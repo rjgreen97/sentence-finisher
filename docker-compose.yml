@@ -5,6 +5,6 @@ services:
     build:
       dockerfile: ./Dockerfile
     ports:
-      - 8008:8008
+      - 8000:8000
     volumes:
       - $HOME/.cache/huggingface/transformers:/root/.cache/huggingface/transformers
