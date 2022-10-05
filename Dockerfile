@@ -1,4 +1,4 @@
-FROM python:3.8-slim
+FROM pytorch/pytorch:latest
 
 WORKDIR /workspace
 
